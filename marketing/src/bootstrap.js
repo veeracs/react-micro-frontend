@@ -10,7 +10,7 @@ const mount = (el) => {
 };
 
 if (process.env.NODE_ENV === 'development') {
-    const marketingDevRoot = document.querySelector('#marketing-dev-root');
+    const marketingDevRoot = document.querySelector('#marketing-root');
 
     if (marketingDevRoot) {
         mount(marketingDevRoot);
